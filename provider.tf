@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "remote-state-devops-dev"
+    bucket       = "state-rem-86s"
     key          = "docker-instance"
     use_lockfile = true
     encrypt      = true

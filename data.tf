@@ -31,5 +31,5 @@ data "aws_subnet" "default_pub_subnet_1a" {
 }
 
 data "aws_security_group" "sg_id" {
-  name = "devsecgrp"
+  name = "Allow-ports"
 }
